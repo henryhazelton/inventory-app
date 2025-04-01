@@ -10,7 +10,7 @@ def main():
     while True:
         print("1. Add new item")
         print("2. Remove item")
-        print("3. Edit item")
+        print("3. Edit item quantity")
         print("4. View inventory")
         print("5. Exit")
 
