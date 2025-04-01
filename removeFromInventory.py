@@ -18,7 +18,7 @@ def remove_item():
     if 0 <= index <= len(inventory_data):
         del inventory_data[index] # Deletes the item at the index the user specified
         # Now update the csv file
-        inventory = inventory.export_inventory('inventory.csv', inventory_data)
+        inventory.export_inventory('inventory.csv', inventory_data)
         print("Item successfully removed")
     else:
         print("Invalid Index")
