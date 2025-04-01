@@ -5,8 +5,18 @@ import addToInventory
 import editInventory
 import removeFromInventory
 import viewInventory
+from login import login_user
 
 def main():
+
+    if login_user():
+        print("Access granted to inventory system!")
+        menu()
+    else:
+        print("Access denied!")
+
+
+def menu():
     while True:
         print("1. Add new item")
         print("2. Remove item")
