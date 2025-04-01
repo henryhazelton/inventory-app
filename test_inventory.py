@@ -57,5 +57,3 @@ class TestLogin(unittest.TestCase):
     def test_failed_login_no_user(self, mock_input):
         self.assertFalse(login.login_user())
 
-class TestMain(unittest.TestCase):
-    
